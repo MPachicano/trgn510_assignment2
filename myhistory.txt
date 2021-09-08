@@ -1,0 +1,1000 @@
+    7  cd assignments
+    8  ls
+    9  cd trgn510_assignment1
+   10  ls
+   11  cd problem2
+   12  ls
+   13  cd ~
+   14  ls
+   15  cp /data/bashrc_sample ~/assignments/trgn_assignment1/problem2/.
+   16  cp /data/bashrc_sample ~/assignments/trgn510_assignment1/problem2/.
+   17  cd assignments
+   18  ls
+   19  cd trgn510_assignment1
+   20  ls
+   21  cd problem2
+   22  ls
+   23  vim bashrc_sample
+   24  source ~/assignments/trgn_assignment1/problem2/bashrc_sample
+   25  source ~/assignments/trgn510_assignment1/problem2/bashrc_sample
+   26  cp ~/assignments/trgn510_assignment1/problem2/bashrc_sample ~/.bashrc
+   27  cd assignments
+   28  ls
+   29  rm vimrc
+   30  cd trgn510_assignment1
+   31  ls
+   32  cd problem2
+   33  ls
+   34  rm vimrc
+   35  cd problem2
+   36  ls
+   37  cd ~
+   38  ls
+   39  cd assignments
+   40  cp /home/data/vimrc ~/assignments/trgn_assignment1/problem2/
+   41  cp /home/data/vimrc ~/assignments/trgn510_assignment1/problem2/
+   42  vim vimrc
+   43  ls
+   44  vim vimrc
+   45  cp /assignments/trgn510_assignment1/problem2 ~/home/
+   46  cd ~
+   47  vim vimrc
+   48  cd assignments
+   49  ls
+   50  cp /problem2/data/vimrc ~/home
+   51  cp /problem2/vimrc ~/home
+   52  cd trgn510_assignment1
+   53  ls
+   54  cd problem2
+   55  ls
+   56  cp /problem2/data/vimrc ~/home
+   57  cd assignments
+   58  cd ~
+   59  ls
+   60  cd assignments
+   61  ls
+   62  cp vimrc ~/.vimrc
+   63  vi vimrc
+   64  ls
+   65  vim vimrc
+   66  vi vimrc
+   67  cd vimrc
+   68  ./vimrc
+   69  vim vimrc
+   70  cd assignments
+   71  ls
+   72  cd trgn510_assignment1
+   73  ls
+   74  cd problem2
+   75  ls
+   76  vim vimrc
+   77  cd ~
+   78  cd assignments
+   79  cd trgn510_assignment1
+   80  ls
+   81  mkdir problem 3
+   82  ls
+   83  rm 3
+   84  rm problem 3
+   85  rm problem
+   86  rmdir 3
+   87  rmdir problem
+   88  ls
+   89  mkdir problem\ 3
+   90  ls
+   91  ls -l
+   92  cd problem\ 3
+   93  ls
+   94  mkdir My\ History.txt
+   95  ls
+   96  history
+   97  cd My\ History.txt
+   98  history
+   99  ls
+  100  history
+  101  cd ~
+  102  ls
+  103  cd assignments
+  104  ls
+  105  cd trgn510_assignment1
+  106  ls
+  107  mkdir problem4
+  108  ls
+  109  top
+  110  cd problem4
+  111  top
+  112  cd assignments
+  113  ls
+  114  cd trgn510_assignment1
+  115  ls
+  116  cd problem4
+  117  ls
+  118  ps -ef | grep $USER
+  119  cd ~
+  120  ls
+  121  cd assignments
+  122  ls
+  123  cd trgn510_assignment1
+  124  ls
+  125  cd problem\ 3
+  126  ls
+  127  history > My\ History.txt
+  128  cd My\ History.txt
+  129  ls
+  130  history > My\ History.txt
+  131  ls
+  132  ls -l
+  133  ls
+  134  cd My\ History.txt
+  135  history > My\ History.txt
+  136  cd ~
+  137  cd assignments
+  138  cd trgn510_assigment1
+  139  cd problem\ 3
+  140  ls
+  141  cd My\ History.txt
+  142  ls
+  143  cd My\ History.txt
+  144  ls -l
+  145  history
+  146  history > My\ History.txt
+  147  cd ~
+  148  cd assignments
+  149  cd trgn510_assignment1
+  150  ls
+  151  cd problem\ 3
+  152  ls
+  153  cat <My\ History.txt>
+  154  less My\ History.txt
+  155  more My\ History.txt
+  156  history > My\History.txt
+  157  more My\ History.txt
+  158  cat My\ History.txt
+  159  history > My\ History.txt
+  160  head My\ History.txt
+  161  ls
+  162  cd My\ History.txt
+  163  ls
+  164  head My\ History.txt
+  165  cat My\ History.txt
+  166  cd ~
+  167  cd assignments
+  168  ls
+  169  cd trgn510_assignment1
+  170  ls
+  171  cd problem\ 3
+  172  cat problem\3
+  173  ls
+  174  rm MyHistory.txt
+  175  ls
+  176  cat My\ History.txt
+  177  cd My\ History.txt
+  178  ls
+  179  cat My\ History.txt
+  180  less My\ History.txt
+  181  cd ~
+  182  cd assignments
+  183  cd trgn510_assignment1
+  184  ls
+  185  cd problem4
+  186  ls
+  187  mkdir myprocesses.txt
+  188  ls
+  189  ps -ef | grep $USER
+  190  ps -ef | grep $USER > myprocesses.txt
+  191  pwd
+  192  ps -ef | grep $USER > myprocesses.txt
+  193  cd problem4
+  194  ls
+  195  ps -ef | grep $USER > myprocesses.txt
+  196  cd myprocesses.txt
+  197  ls
+  198  ps -ef | grep $USER > myprocesses.txt
+  199  cat myprocesses.txt
+  200  head
+  201  ls
+  202  cd assignments
+  203  ls
+  204  cd trgn510_assignment1
+  205  ls
+  206  cd problem4
+  207  ls
+  208  more myprocesses.txt
+  209  less myprocesses.txt
+  210  cat myprocesses.txt
+  211  cd myprocesses.txt
+  212  ls
+  213  cat myprocesses.txt
+  214  less myprocesses.txt
+  215  more myprocesses.txt
+  216  ps -ef | grep $USER
+  217  more myprocesses.txt
+  218  ls
+  219  cd myprocesses.txt
+  220  cat myprocesses.txt
+  221  echo "# My processes" > header.txt
+  222  cat header.txt > myprocesses.header.txt
+  223  cd ~
+  224  cd assignments
+  225  cd trgn510_assignment1
+  226  ls
+  227  cd problem4
+  228  ls
+  229  cd myprocesses.txt
+  230  ls
+  231  cd header.txt
+  232  cat header.txt
+  233  cat myprocesses.header.txt
+  234  cd ~
+  235  ls
+  236  cd assignments
+  237  ls
+  238  cd trgn510_assignment1
+  239  ls
+  240  mkdir problem5
+  241  ls
+  242  cd problem5
+  243  wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_29/gencode.v29.basic.annotation.gtf.gz
+  244  ls -l
+  245  md5sum gencode.v29.basic.annotation.gtf.gz
+  246  gunzip gencode.v29.basic.annotation.gtf.gz
+  247  ls -l
+  248  head gencode.v29.basic.annotation.gtf
+  249  tail -f gencode.v29.basic.annotation.gtf
+  250  cd assignments
+  251  ls
+  252  cd trgn510_assignment1
+  253  ls
+  254  cd problem5
+  255  ls
+  256  cd wc -l  gencode.v29.basic.annotation.gtf`
+  257  cd assignments
+  258  cd trgn510_assignment1
+  259  ls
+  260  cd problem5
+  261  ls
+  262  cd gencode.v29.basic.annotation.gtf
+  263  wc -l  gencode.v29.basic.annotation.gtf`
+  264  wc -l  gencode.v29.basic.annotation.gtf
+  265  cd assignments
+  266  cd trgn510_assignment1
+  267  ls
+  268  cd problem5
+  269  ls
+  270  wc -l  gencode.v29.basic.annotation.gtf
+  271  head gencode.v29.basic.annotation.gtf
+  272  grep " gene " gencode.v29.basic.annotation.gtf | wc -l
+  273  grep "	gene	" gencode.v29.basic.annotation.gtf | wc -l
+  274  grep "	gene	" gencode.v29.basic.annotation.gtf > genes.tmp.txt
+  275  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  276  mkdir genes.tmp2.txt
+  277  ls
+  278  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  279  genes.tmp2.txt
+  280  cd genes.tmp2.txt
+  281  ls
+  282  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  283  grep -oP 'gene_name "(.*?)"' genes.tmp.txt 
+  284  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  285  cd problem5
+  286  ls
+  287  cd ~
+  288  ls
+  289  cd assignments
+  290  cd trgn510_assignment1
+  291  ls
+  292  cd problem5
+  293  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  294  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  295  head genes.tmp2.txt
+  296  ls
+  297  genes.tmp2.txt
+  298  cd genes.tmp2.txt
+  299  head genes.tmp2.txt
+  300  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  301  cd problem5
+  302  cd ~
+  303  cd assignments
+  304  cd trgn510_assignment1
+  305  ls
+  306  cd problem5
+  307  ls
+  308  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  309  head genes.tmp2.txt
+  310  cat  genes.tmp2.txt
+  311  cd genes.tmp2.txt
+  312  cat genes.tmp2.txt
+  313  lets use this command:
+  314  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  315  cd ..
+  316  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  317  cd genes.tmp2.txt
+  318  ls
+  319  cat genes.tmp2.txt
+  320  head genes.tmp2.txt
+  321  cat genes.tmp2.txt
+  322  ls
+  323  cd genes.tmp2.txt
+  324  cat genes.tmp2.txt
+  325  ls -l
+  326  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  327  cd ..
+  328  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  329  head genes.tmp2.txt
+  330  ls
+  331  rm genes.tmp2.txt
+  332  ls
+  333  rm genes.tmp2.txt
+  334  rmdir genes.tmp2.txt
+  335  ls
+  336  cat genes.tmp2.txt
+  337  head genes.tmp2.txt
+  338  less genes.tmp2.txt
+  339  more genes.tmp2.txt
+  340  cat genes.tmp2.txt
+  341  head genes.tmp2.txt
+  342  cd genes.tmp2.txt
+  343  ls
+  344  head genes.tmp2.txt
+  345  cat genes.tmp2.txt
+  346  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  347  cd ..
+  348  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  349  cd assignments
+  350  cd trgn510_assignment1
+  351  ls
+  352  cd problem5
+  353  ls
+  354  ls -l
+  355  head genes.tmp2.txt
+  356  cd genes.tmp2.txt
+  357  ls
+  358  head genes.tmp2.txt
+  359  cd ..
+  360  cd genes.tmp.txt
+  361  ls
+  362  cd genes.tmp.tt
+  363  cat genes.tmp.txt
+  364  grep "	gene	" gencode.v29.basic.annotation.gtf | wc -l
+  365  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  366  genes.tmp.txt > genes.tmp2.txt
+  367  cd genes.tmp2.txt
+  368  ls
+  369  genes.tmp.txt > genes.tmp2.txt
+  370  cat genes.tmp2.txt
+  371  ls
+  372  cd genes.tmp2.txt
+  373  head genes.tmp2.txt
+  374  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  375  cd ..
+  376  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  377  ls
+  378  cd genes.tmp2.txt
+  379  ls
+  380  head genes.tmp2.txt
+  381  cd ..
+  382  cd genes.tmp.txt
+  383  head genes.tmp.txt
+  384  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  385  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  386  ./genes.tmp2.txt
+  387  cd genes.tmp2.txt
+  388  ls
+  389  head genes.tmp2.txt
+  390  cat genes.tmp2.txt
+  391  less genes.tmp2.txt
+  392  more genes.tmp2.txt
+  393  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  394  cd ..
+  395  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  396  ls
+  397  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  398  rmdir genes.tmp2.txt
+  399  head genes.tmp2.txt
+  400  cat genes.tmp2.txt
+  401  cd genes.tmp2.txt
+  402  cat genes.tmp2.txt
+  403  more genes.tmp2.txt
+  404  rm genes.tmp2.txt
+  405  cd ..
+  406  ls
+  407  rmdir genes.tmp2.txt
+  408  ls
+  409  grep -oP 'gene_name "(.*?)"' genes.tmp.txt
+  410  grep -oP 'gene_name "(.*?)"' genes.tmp.txt > genes.tmp2.txt
+  411  ls
+  412  cd genes.tmp2.txt
+  413  head genes.tmp2.txt
+  414  vim genes.tmp2.txt
+  415  vim problem5
+  416  cd ..
+  417  vim genes.tmp2.txt
+  418  cd problem5
+  419  ls
+  420  rm problem5
+  421  ls
+  422  vim genes.tmp2.txt
+  423  ls
+  424  cd assignments
+  425  ls
+  426  cd trgn510_assignment1
+  427  ls
+  428  cd problem5
+  429  ls
+  430  head genes.tmp2.txt
+  431  cd ~
+  432  ls
+  433  cd assignments
+  434  ls
+  435  cd trgn510_assignment1
+  436  ls
+  437  rmdir genes.tmp2.txt
+  438  ls
+  439  rm genes.tmp2.txt
+  440  ls
+  441  cd problem5
+  442  ls
+  443  head genes.tmp2.txt
+  444  vim genes.tmp2.txt
+  445  vi genes.tmp2.txt
+  446  vim genes.tmp2.txt
+  447  head genes.tmp2.txt
+  448  cd genes.tmp2.txt
+  449  ./genes.tmp2.txt
+  450  vim genes.tmp2.txt
+  451  cd assignments
+  452  cd trgn510_assignment1
+  453  ls
+  454  cd problem5
+  455  ls
+  456  vim genes.tmp2.txt
+  457  head genes.tmp2.txt
+  458  vim genes.tmp2.txt
+  459  cd ..
+  460  vim genes.tmp2.txt
+  461  cd assignments
+  462  cd trgn510_assignment1
+  463  ls
+  464  cd problem5
+  465  ls
+  466  head genes.tmp2.txt
+  467  vim genes.tmp2.txt
+  468  cd ~
+  469  vim genes.tmp2.txt
+  470  head genes.tmp2.txt
+  471  ls
+  472  rmdir genes.tmp2.txt
+  473  rm genes.tmp2.txt
+  474  ls
+  475  cd assignments
+  476  cd trgn510_trgn
+  477  cd trgn510_assignment1
+  478  ls
+  479  cd problem 5
+  480  cd problem5
+  481  cd ..
+  482  cd problem5
+  483  ls
+  484  head genes.tmp2.txt
+  485  vim genes.tmp2.txt
+  486  head genes.tmp2.txt
+  487  vim genes.tmp2.txt
+  488  head genes.tmp2.txt
+  489  vim genes.tmp2.txt
+  490  head genes.tmp2.txt
+  491  vim genes.tmp2.txt
+  492  head genes.tmp2.txt
+  493  ls
+  494  cd assignments
+  495  ls
+  496  cd trgn510_assignment1
+  497  ls
+  498  rm genes.tmp2.txt
+  499  ls
+  500  head genes.tmp2.txt
+  501  cd problem5
+  502  ls
+  503  head genes.tmp2.txt
+  504  vim genes.tmp2.txt
+  505  head genes.tmp2.txt
+  506  vim genes.tmp2.txt
+  507  head genes.tmp2.txt
+  508  vim genes.tmp2.txt
+  509  head genes.tmp2.txt
+  510  vim genes.tmp2.txt
+  511  head genes.tmp2.txt
+  512  cd ..
+  513  head genes.tmp2.txt
+  514  ls
+  515  cd problem5
+  516  ls
+  517  head genes.tmp2.txt
+  518  vim genes.tmp2.txt
+  519  ./ genes.tmp2.txt
+  520  head genes.tmp2.txt
+  521  vi genes.tmp2.txt
+  522  head genes.tmp2.txt
+  523  ./genes.tmp2.txt
+  524  bash genes.tmp2.txt
+  525  cd assignments
+  526  cd trgn510_assignment1
+  527  ls
+  528  cd problem5
+  529  ls
+  530  cd genes.tmp2.txt
+  531  ls
+  532  vim genes.tmp2.txt
+  533  head genes.tmp2.txt
+  534  cd ~
+  535  ls
+  536  vim genes.tmp2.txt
+  537  cd assignments
+  538  ls
+  539  cd trgn510_assignment1
+  540  ls
+  541  cd problem5
+  542  ls
+  543  head genes.tmp2.txt
+  544  cd ~
+  545  ls
+  546  vim genes.tmp2.txt
+  547  ls
+  548  rm genes.tmp2.txt
+  549  ls
+  550  cd assignments
+  551  ls trgn510_assignment1
+  552  ls
+  553  cd trgn510_assignment1
+  554  ls
+  555  cd problem5
+  556  ls
+  557  vim genes.tmp2.txt
+  558  head genes.tmp2.txt
+  559  vimrc genes.tmp2.txt
+  560  vim genes.tmp2.txt
+  561  head genes.tmp2.txt
+  562  vim genes.tmp2.txt
+  563  head genes.tmp2.txt
+  564  vim genes.tmp2.txt
+  565  head genes.tmp2.txt
+  566  vim genes.tmp2.txt
+  567  head genes.tmp2.txt
+  568  vim genes.tmp2.txt
+  569  cd ~
+  570  vimrc
+  571  ./vimrc
+  572  cd vimrc
+  573  vim vimrc
+  574  ls
+  575  cd assignments
+  576  ls
+  577  vim vimrc
+  578  cd trgn510_assignment1
+  579  ls
+  580  cd problem/3
+  581  problem2
+  582  cd problem2
+  583  ls
+  584  vim vimrc
+  585  cd ..
+  586  ls
+  587  cd problem5
+  588  ls
+  589  head genes.tmp2.txt
+  590  vimrc genes.tmp2.txt
+  591  vi genes.tmp2.txt
+  592  cd ~
+  593  ls
+  594  cd assignments
+  595  ls
+  596  cd trgn510_assignment1
+  597  ls
+  598  cd problem5
+  599  ls
+  600  vim genes.tmp2.txt
+  601  :source genes.tmp2.txt
+  602  :so %
+  603  vim genes.tmp2.txt
+  604  ./genes.tmp2.txt
+  605  :so %
+  606  :so%
+  607  :so %
+  608  vim genes.tmp2.txt
+  609  head genes.tmp2.txt
+  610  ./genes.tmp2.txt.sh
+  611  :source genes.tmp2.txt
+  612  head genes.tmp2.txt
+  613  vim genes.tmp2.txt
+  614  head genes.tmp2.txt
+  615  bash genes.tmp2.txt
+  616  ls
+  617  cd assignments
+  618  ls
+  619  cd trgn510_assignment1
+  620  ls
+  621  cd problem5
+  622  ls
+  623  vim genes.tmp2.txt
+  624  cd ~
+  625  ls
+  626  vim vimrc
+  627  cd assignments
+  628  ls
+  629  vim vimrc
+  630  ls
+  631  cd trgn510_assignment1
+  632  ls
+  633  cd problem2
+  634  ls
+  635  vim vimrc
+  636  cd .
+  637  cd..
+  638  cd ..
+  639  cd problem5
+  640  ls -l
+  641  chmod 755 genes.tmp2.txt
+  642  vim genes.tmp2.txt
+  643  head genes.tmp2.txt
+  644  ls -l
+  645  chmod 755 genes.tmp2.txt
+  646  ./genes.tmp2.txt
+  647  cd assignments
+  648  ls
+  649  cd trgn510_assignment1
+  650  ls
+  651  cd problem5
+  652  ls
+  653  chmod 755 genes.tmp2.txt
+  654  head genes.tmp2.txt
+  655  ls -l
+  656  chmod 755 genes.tmp2.txt
+  657  ~/genes.tmp2.txt
+  658  ls
+  659  chmod 700 genes.tmp2.txt
+  660  ls
+  661  chmod 755 genes.tmp2.txt
+  662  ls
+  663  ~/genes.tmp2.txt
+  664  cd ~
+  665  ls
+  666  chmod 755 genes.tmp2.txt
+  667  cd assignments
+  668  chmod 755 genes.tmp2.txt
+  669  cd trgn510_assignment1
+  670  ls
+  671  cd problem5
+  672  chmod 755 genes.tmp2.txt
+  673  ls
+  674  head genes.tmp2.txt
+  675  ls -al
+  676  rm .genes.tmp2.txt.swp
+  677  ls
+  678  ls -l
+  679  head genes.tmp2.txt
+  680  pwd
+  681  vim genes.tmp2.txt
+  682  head genes.tmp2.txt
+  683  vim genes.tmp2.txt
+  684  head genes.tmp2.txt
+  685  cd ~
+  686  cd assignment
+  687  cd assignments
+  688  ls
+  689  cd trgn510_assignment1
+  690  ls
+  691  cd problem 5
+  692  cd problem5
+  693  ls
+  694  vim genes.tmp2.txt
+  695  head genes.tmp2.txt
+  696  cd ..
+  697  ls
+  698  cd problem1
+  699  ls
+  700  head myhistory.problem1.txt
+  701  history
+  702  cd ..
+  703  ls
+  704  cd problem2
+  705  ls
+  706  vim bashrc_sample
+  707  source ~/assignments/trgn_assignment1/problem2/bashrc_sample
+  708  cd ~
+  709  ls
+  710  cd assignments
+  711  ls
+  712  cd trgn510_assignment1
+  713  ls
+  714  cd problem\3
+  715  cd problem/3
+  716  cd problem\3
+  717  cd ..
+  718  ls
+  719  cd problem\3
+  720  cd problem\ 3
+  721  cd problem \3
+  722  cd problem\3
+  723  cd problem2
+  724  cd ..
+  725  cd problem2
+  726  cd ..
+  727  cd problem\3
+  728  cd ..
+  729  cd problem/3
+  730  cd problem\ 3
+  731  ls
+  732  ls -l
+  733  ls
+  734  head My\ History.txt
+  735  cat My\ History.txt
+  736  cd My\ History.txt
+  737  head My\ History.txt
+  738  cd ..
+  739  ls -l
+  740  cd problem4
+  741  ls
+  742  cd myprocesses.txt
+  743  ls
+  744  cd ~
+  745  ls
+  746  cd assignments
+  747  ls
+  748  cd trgn510_assignment1
+  749  ls
+  750  cd problem5
+  751  ls
+  752  vi genes.tmp2.txt.sh
+  753  ./genes.tmp2.txt.sh
+  754  vi genes.tmp2.txt.sh
+  755  vi genes.tmp2.sh
+  756  ./genes.tmp2.sh
+  757  chmod 755 gene.tmp2.sh
+  758  chmod 755 genes.tmp2.sh
+  759  ./genes.tmp2.sh
+  760  ls -l
+  761  rm genes.tmp2.txt.sh
+  762  ls
+  763  rm genes.tmp2.sh
+  764  ls
+  765  ls -l
+  766  chmod 755 genes.tmp.txt
+  767  ls -l
+  768  head genes.tmp2.txt
+  769  less genes.tmp2.txt
+  770  vi genes.tmp2.txt
+  771  vim genes.tmp2.txt
+  772  head genes.tmp2.txt
+  773  vim genes.tmp2.txt
+  774  head genes.tmp2.txt
+  775  vim genes.tmp2.txt
+  776  cd assignments
+  777  ls
+  778  cd trgn510_assignment1
+  779  ls
+  780  cd problem5
+  781  ls
+  782  vim genes.tmp2.txt
+  783  cd assignments
+  784  ls
+  785  cd trgn510_assignment1
+  786  ls
+  787  cd problem5
+  788  ls
+  789  vim genes.tmp2.txt
+  790  head genes.tmp2.txt
+  791  mv genes.tmp2.txt genes.final.txt
+  792  head genes.final.txt
+  793  cd ~
+  794  ls
+  795  cd assignments
+  796  ls
+  797  cd trgn510_assignment1
+  798  ls
+  799  cd problem1
+  800  ls
+  801  cd ~
+  802  cd assignments
+  803  cd trgn510_assignment1
+  804  ls
+  805  cd problem5
+  806  ls
+  807  vi ~/assignments/trgn_assignment1/.gitignore
+  808  cd assignments
+  809  cd trgn510_assignment1
+  810  ls
+  811  cd problem5
+  812  ls
+  813  vi ~/assignments/trgn_assignment1/.gitignore
+  814  cd assignments
+  815  ls
+  816  cd trgn510_assignment1
+  817  ls
+  818  cd problem5
+  819  ls
+  820  vi ~/assignments/trgn510_assignment1/.gitignore
+  821  history
+  822  cd assignments
+  823  ls
+  824  cd trgn510_assignment1
+  825  ls
+  826  cd problem1
+  827  ls
+  828  history
+  829  history > myhistory.problem1.txt
+  830  cat myhistory.problem1.txt
+  831  cd ~
+  832  ls
+  833  cd assignments
+  834  ls
+  835  cd trgn510_assignment1
+  836  ls
+  837  cd problem1
+  838  ls
+  839  cat myhistory.problem1.txt
+  840  cd ..
+  841  cd problem
+  842  cd ..
+  843  cd problem2
+  844  ls
+  845  cd ..
+  846  cd problem/ 3
+  847  cd ..
+  848  cd problem\ 3
+  849  ls -l
+  850  cat My/ History.txt
+  851  head My/ History.txt
+  852  cd My/ History.txt
+  853  head My/ History.txt
+  854  ls -l
+  855  cat My/ History.txt
+  856  cd ..
+  857  ls -l
+  858  cd problem/ 3
+  859  cd ..
+  860  cd problem/ 3
+  861  ls
+  862  cd ..
+  863  cd problem /3
+  864  ls
+  865  cd ..
+  866  cd problem/ 3
+  867  cd problem\ 3
+  868  cd ..
+  869  cd problem\ 3
+  870  ls
+  871  cat My\ History.txt
+  872  head My\ History.txt
+  873  cd My\ History.txt
+  874  ls
+  875  less My\ History.txt
+  876  cat My\ History.txt
+  877  cd ..
+  878  cd probelm4
+  879  ls
+  880  cat myprocesses.txt
+  881  head myprocesses.txt
+  882  ls
+  883  cd myprocesses.txt
+  884  ls
+  885  cat myprocesses.header.txt
+  886  cat myprocesses.txt
+  887  cd ~
+  888  ls
+  889  git add . -A
+  890  git commit -m "Submitting"
+  891  git push
+  892  git add . -A
+  893  git commit -m "Submitting"
+  894  git push
+  895  assignments
+  896  cd assignments
+  897  cd trgn510_assignment1
+  898  ls
+  899  git add . -A
+  900  git commit -m "Submitting"
+  901  git push
+  902  git add . -A
+  903  git commit -m "Submitting"
+  904  git push
+  905  git add . -A
+  906  git commit -m "Submitting"
+  907  git push
+  908  ls
+  909  cd assignments
+  910  ls
+  911  git clone
+  912  git clone https://github.com/MPachicano/trgn510_assignment2.git
+  913  cd trgn510_assignment2
+  914  ls
+  915  vim README.md
+  916  git add . -A
+  917  git commit -m "First commit"
+  918  git config --global user.email "pachican@usc.edu"
+  919  git config --global user.name "MPachicano"
+  920  git push
+  921  ls
+  922  vim README.md
+  923  git push
+  924  git add . -A
+  925  git commit -m "First commit"
+  926  git push
+  927  ls
+  928  vi Problem1.sh
+  929  ls -l
+  930  chmod 755 Problem1.sh
+  931  pwd
+  932  Problem1.sh
+  933  ./Problem1.sh
+  934  vi Problem2.sh
+  935  chmod 755 Problem2.sh
+  936  pwd
+  937  ./Problem2.sh
+  938  ls
+  939  vi Problem3.sh
+  940  chmod 755 Problem3.sh
+  941  ./Problem3.sh
+  942  vi Problem3.sh
+  943  ./Problem3.sh
+  944  vi Problem4.sh
+  945  chmod 755 Problem4.sh
+  946  ./Problem4.sh
+  947  vi Problem4.sh
+  948  ./Problem4.sh
+  949  vi Problem4.sh
+  950  ./Problem4.sh
+  951  vi Problem5.sh
+  952  chmod 755 Problem5.sh
+  953  ./Problem5.sh
+  954  vi Problem5.sh
+  955  ./Problem5.sh
+  956  vi Problem6.sh
+  957  chmod 755
+  958  chmod 755 Problem6.sh
+  959  ./Problem6.sh
+  960  vi Problem6.sh
+  961  ./Problem6.sh
+  962  vi Problem6.sh
+  963  ./Problem6.sh
+  964  vi Problem6.sh
+  965  ./Problem6.sh
+  966  vi Problem6.sh
+  967  ls
+  968  Problem7.sh https://en.wikipedia.org/wiki/Bioinformatics
+  969  wget -q0 <em>https://en.wikipedia.org/wiki/Bioinformatics/Problem7.sh</em> | bash
+  970  wget -q0 <em>https://en.wikipedia.org/wiki/Bioinformatics/Problem7.sh</em>
+  971  wget https://en.wikipedia.org/wiki/Bioinformatics/Problem7.sh
+  972  Problem7.sh https://en.wikipedia.org/wiki/Bioinformatics
+  973  ./Problem7.sh Problem7.sh https://en.wikipedia.org/wiki/Bioinformatics
+  974  ./Problem7.sh https://en.wikipedia.org/wiki/Bioinformatics
+  975  vi Problem7.sh
+  976  chmod 755 Problem7.sh
+  977  ./Problem7.sh
+  978  Problem7.sh https://en.wikipedia.org/wiki/Bioinformatics
+  979  ./Problem7.sh https://en.wikipedia.org/wiki/Bioinformatics
+  980  vi Problem7.s
+  981  ls
+  982  rm Problem7.s
+  983  ls
+  984  vi Problem7.sh
+  985  ./Problem7.sh
+  986  vi Problem7.sh
+  987  ls
+  988  cd assignments
+  989  ls
+  990  cd trgn510_assignment2
+  991  ls
+  992  vi Problem7.sh
+  993  ./Problem7.sh
+  994  vi Problem7.sh
+  995  ./Problem7.sh https://en.wikipedia.org/wiki/Bioinformatics
+  996  vi Problem7.sh
+  997  ./Problem7.sh https://en.wikipedia.org/wiki/Bioinformatics
+  998  vi Problem7.sh
+  999  cd assignments
+ 1000  ls
+ 1001  cd trgn510_assignment2
+ 1002  ls
+ 1003  vi Problem7.sh
+ 1004  ./Problem7.sh
+ 1005  ./Problem7.sh myhistory.txt
+ 1006  history > myhistory.txt
