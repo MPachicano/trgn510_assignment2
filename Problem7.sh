@@ -10,4 +10,4 @@ wget -O "$filename" "$1"
 while read -n 1 c
 do
     echo "$c"
-done < "$filename" | grep '[[:alpha:]]' | sort | uniq -c | sort -nr
+done < "$filename" | grep '[[:alpha:]]' | sort | uniq -c | head -n 10
